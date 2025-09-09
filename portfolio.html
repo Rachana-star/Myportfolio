@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; color: #333; }
+    header { background: #222; color: #fff; padding: 20px; text-align: center; }
+    header h1 { margin: 10px 0 0 0; }
+    header p { margin: 5px 0; }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      margin-bottom: 10px;
+    }
+    nav { background: #444; padding: 10px; text-align: center; position: sticky; top: 0; z-index: 1000; }
+    nav a { color: #fff; margin: 0 10px; text-decoration: none; font-size: 14px; padding: 6px 10px; border-radius: 5px; }
+    nav a.active { background: #fff; color: #444; font-weight: bold; }
+    section { padding: 30px 20px; max-width: 900px; margin: auto; background: #fff; margin-top: 20px; border-radius: 8px; }
+    h2 { margin-bottom: 10px; color: #222; }
+    ul { padding-left: 20px; }
+    .chip { display: inline-block; background: #eee; padding: 5px 10px; border-radius: 15px; margin: 2px; font-size: 13px; }
+    footer { text-align: center; padding: 15px; background: #222; color: #fff; margin-top: 20px; font-size: 14px; }
+    html { scroll-behavior: smooth; }
+    #contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+#contact input,
+#contact textarea {
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#contact button {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background: #005fa3;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src=" images/profile1.jpg" alt="Profile Photo" class="profile-pic" />
+    <h1>Rachana Morthala</h1>
+    <p>Aspiring Software Engineer | CSE Final Year Student</p>
+    <p>Email: morthalarachana919@gmail.com| Phone: +91-9347105507</p>
+    <p><a href="https://www.linkedin.com/in/morthala-rachana-0786aa2b6" style="color:#fff;">LinkedIn</a> | <a href="https://github.com/Rachana-star" style="color:#fff;">GitHub</a> | <a href="https://github.com/Rachana-star/Myportfolio.git" style="color:#fff;">Portfolio</a></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+    <a href="#message">Message Me</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Final-year Computer Science student with strong skills in Python, Java, AI and ML and cloud computing. Passionate about solving real-world problems and collaborative teamwork.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech – Computer Science & Engineering</strong> | vaagdevi college of engineering(2022 – 2026)</p>
+    <p>CGPA: 8.43/10</p>
+    <ul>
+      <li>Relevant Coursework: Data Structures, Algorithms, DBMS, OS, Computer Networks</li>
+    
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p><strong>Programming:</strong> <span class="chip">java</span> <span class="chip">python</span></p>
+    <p><strong>Web:</strong> <span class="chip">HTML</span> <span class="chip">CSS</span> <span class="chip">JavaScript</span> </p>
+    <p><strong>Databases:</strong> <span class="chip">MySQL</span> <span class="chip">MongoDB</span></p>
+    <p><strong>Tools:</strong> <span class="chip">Git</span> <span class="chip">GitHub</span> <span class="chip">VS Code</span></p> <span class="chip">jupiter notebook</span></p> <span class="chip">Anaconda navigatork</span></p>
+    <p><strong>Soft Skills:</strong> Problem-solving, Communication, Teamwork, Leadership</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p><strong>Personal Fitness Tracker (Python, Pandas, matplotlab)</strong></p>
+    <p>Desktop app to track workouts and calories with visual insights. <a href="#">GitHub Link</a></p>
+
+
+
+    <p><strong>Portfolio Website (HTML, CSS, JavaScript)</strong></p>
+    <p>Responsive portfolio site to showcase skills. <a href="#">Live Link</a></p>
+  </section>
+
+  <section id="experience">
+    <h2>Internships / Experience</h2>
+    <p><strong>Aicte & edunet foundation under the EY global service </strong> (dec 2024 – jan 2025)</p>
+    <ul>
+      <li>Building modern web applications with mern stack.</li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Programming essentials in python by Cisco Network Accademy - (2024)</li>
+      <li>Completion of blue Prism by SS&C –  (2023)</li>
+      <li>Summer of Ai internship program at swecha – (2023)</li>
+      <li>MongoDB by MongoDB Learn – (2023)</li>
+      <li>Introduction to cybersecurity by Network Accademy Team- (2024)</li>
+      <li> Building modern web applications with MERN stack under the EY global service &AICTE</li>
+
+
+
+    </ul>
+  
+
+  <section id="contact">
+    <h2>Contact Information</h2>
+    <p><strong>Location:</strong> Warangal, India</p>
+    <p><strong>Email:</strong> morthalarachana919@gmail.com</p>
+    <p><strong>Phone:</strong> +91-9347105507</p>
+    <p><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/morthala-rachana-0786aa2b6</a></p>
+    <p><strong>GitHub:</strong> <a href="#">https://github.com/Rachana-star</a></p>
+    <p><strong>Portfolio:</strong> <a href="#">https://github.com/Rachana-star/Myportfolio.git<a></p>
+  </section>
+  <section id="contact">
+  <h2>Message Me</h2>
+  <form action="https://formspree.io/f/xyzdllaz" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+  <footer>
+    <p>© 2025 Your Name | Export this page as PDF using browser print option</p>
+  </footer>
+
+  <script>
+    // Highlight active section in navbar
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("nav a");
+
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 60;
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute("id");
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === "#" + current) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
